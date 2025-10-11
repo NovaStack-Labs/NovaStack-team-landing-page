@@ -1,8 +1,23 @@
 # NovaStack Team Landing Page
 
-Welcome to the NovaStack team project!
+This project is a team landing page for **NovaStack Lab**, created for the Software Engineering Foundations assignment. It showcases our team, our mission, and the services we offer through a clean, modern, and responsive design.
 
-This repository is for the Software Engineering Foundations assignment.
+---
+
+## 🚀 Our Team
+
+- **Emmanuel Mwamba**: Lead Developer & Full Stack Engineer
+- **Frank Mwelwa**: Frontend Developer & UI Designer
+- **Leonard Nyirenda**: UI/UX & Graphic Designer
+- **Elijah Nonde**: IT Support & Infrastructure Specialist
+
+---
+
+## ✨ Technologies Used
+
+- **HTML5**: For structuring the web content.
+- **CSS3**: For styling, layout, and responsive design.
+- **Git & GitHub**: For version control and collaboration.
 
 ---
 

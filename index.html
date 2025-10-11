@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Nova Stack Lab: Innovative web and software solutions by a passionate team. Discover our mission, services, and expert team members.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nova Stack Lab | Home</title>
-  <!-- keep existing stylesheet and also include the new stylesheet from other branches -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/styles.css">
-  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
   <header>
     <h1>Nova Stack Lab</h1>
     <nav>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About</a> |
+      <a href="index.html" class="active">Home</a>&nbsp;|&nbsp;
+      <a href="about.html">About</a>&nbsp;|&nbsp;
       <a href="services.html">Services</a>
     </nav>
   </header>
@@ -26,25 +27,26 @@
       to help businesses thrive in the digital world.
     </p>
 
-    <article>
+    <section>
       <h3>Our Mission</h3>
       <p>To empower startups and businesses with modern, user-friendly, and secure digital platforms 
          that transform ideas into impactful experiences.</p>
-    </article>
+    </section>
 
-    <article>
+    <section>
       <h3>Why Choose Us</h3>
       <ul>
         <li>Experienced and passionate development team</li>
         <li>Modern UI/UX design principles</li>
         <li>Fast, responsive, and scalable solutions</li>
       </ul>
-    </article>
+    </section>
 
     <!-- Team members from merged branches -->
     <section aria-labelledby="member-details">
       <h2 id="member-details">Team Member Details</h2>
-      <article>
+      
+      <article class="card" aria-label="Team member Leonard Nyirenda">
         <dl>
           <dt>Full Name</dt>
           <dd>Leonard Nyirenda</dd>
@@ -62,8 +64,25 @@
           <dd>Year 2, Semester 2</dd>
         </dl>
       </article>
+      <article class="card" aria-label="Team member Emmanuel Mwamba">
+        <dl>
+          <dt>Full Name</dt>
+          <dd>Emmanuel Mwamba</dd>
 
-      <article>
+          <dt>Student ID</dt>
+          <dd>2420928</dd>
+
+          <dt>Program of Study</dt>
+          <dd>Bachelor of Software Engineering</dd>
+
+          <dt>Course</dt>
+          <dd>Software Engineering Foundations</dd>
+
+          <dt>Year & Semester</dt>
+          <dd>Year 2, Semester 2</dd>
+        </dl>
+      </article>
+      <article class="card" aria-label="Team member Frank Mwelwa">
         <dl>
           <dt>Full Name</dt>
           <dd>Frank Mwelwa</dd>

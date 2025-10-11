@@ -42,8 +42,17 @@ header h1 {
   letter-spacing: 1px;
 }
 
+/* Navigation Link Styling */
+header nav a.active {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 /* Main Section */
 main {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
   background-color: #ffffff;
   padding: 30px 25px;
   border-radius: 15px;
@@ -87,7 +96,7 @@ dd {
 }
 
 /* Add Card Effect to Member Section */
-article {
+.card {
   background: #f9fbff;
   padding: 20px;
   border-radius: 10px;
@@ -95,9 +104,20 @@ article {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-article:hover {
+.card:hover {
   transform: scale(1.02);
   box-shadow: 0 6px 18px rgba(0, 102, 204, 0.2);
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f1f5f9;
+  color: #555;
+  border-radius: 12px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
 }
 
 /* Responsive Design */
