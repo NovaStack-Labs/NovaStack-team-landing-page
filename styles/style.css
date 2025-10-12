@@ -1,0 +1,116 @@
+/* ---------------------------
+   NovaStack Team Landing Page Styles
+   Author: Frank Mwelwa
+---------------------------- */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #e6f0ff, #f9fbfd);
+  color: #333;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+header:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Header Title */
+header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* Main Section */
+main {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  max-width: 850px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+main:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Section Title */
+h2 {
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Description List Styling */
+dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  row-gap: 12px;
+  column-gap: 30px;
+}
+
+dt {
+  font-weight: 600;
+  color: #00264d;
+}
+
+dd {
+  color: #555;
+}
+
+/* Add Card Effect to Member Section */
+article {
+  background: #f9fbff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 102, 204, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+  }
+
+  dl {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 1.4rem;
+  }
+}
