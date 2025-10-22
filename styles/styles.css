@@ -1,0 +1,234 @@
+/* ---------------------------
+   Nova Stack Lab - Website Styles
+   Author: Frank Mwelwa
+   Pages: Home | About | Services
+---------------------------- */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #e6f0ff, #f9fbfd);
+  color: #333;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+header:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Header Title */
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* Navigation Links */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  color: #66b2ff;
+  border-bottom: 2px solid #66b2ff;
+}
+
+/* Main Section */
+main {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+main:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Section Titles */
+h2 {
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Sub Headings */
+h3 {
+  color: #004080;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+  color: #444;
+  font-size: 1rem;
+}
+
+/* Lists */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Description List Styling (About Page) */
+dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  row-gap: 12px;
+  column-gap: 30px;
+  margin-top: 15px;
+}
+
+dt {
+  font-weight: 600;
+  color: #00264d;
+}
+
+dd {
+  color: #555;
+}
+
+/* Article Cards */
+article {
+  background: #f9fbff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 25px;
+}
+
+article:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 102, 204, 0.25);
+}
+
+/* Links */
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #003366;
+  font-size: 0.9rem;
+  background-color: #f0f6ff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 102, 204, 0.1);
+}
+
+/* Contact Section (Services Page) */
+article:last-of-type p {
+  font-size: 1rem;
+  color: #333;
+}
+
+article:last-of-type a {
+  font-weight: 600;
+  color: #0059b3;
+}
+
+/* Hover effects for cards and links */
+article:last-of-type a:hover {
+  color: #0073e6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: 20px;
+  }
+
+  dl {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small Devices */
+@media (max-width: 480px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  header {
+    padding: 20px 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  footer {
+    font-size: 0.85rem;
+  }
+}
