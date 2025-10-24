@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Nova Stack Lab for enquiries about development, design, and IT services.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Stack Lab | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <h1>Contact Us</h1>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-navigation">
+      <span class="sr-only">Toggle navigation</span>
+      ☰
+    </button>
+  </div>
+  <nav id="site-navigation" class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Get in touch</h2>
+
+  <section class="card">
+    <h3>General Enquiries</h3>
+    <p>Email: <a href="mailto:info@novastacklab.com">info@novastacklab.com</a></p>
+    <p>Phone: <a href="tel:+260976595045">+260 97 6595045</a></p>
+  </section>
+
+  <section class="card">
+    <h3>Office</h3>
+    <p>Nova Stack Lab</p>
+    <p>123 Innovation Drive</p>
+    <p>Lusaka, Zambia</p>
+  </section>
+
+  <section class="card">
+    <h3>Send us a Message</h3>
+    <form action="#" method="post" aria-label="Contact form">
+      <label for="name">Name</label><br>
+      <input id="name" name="name" type="text" placeholder="Your name" required style="width:100%;padding:8px;margin:6px 0;border-radius:6px;border:1px solid #ccc;">
+
+      <label for="email">Email</label><br>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required style="width:100%;padding:8px;margin:6px 0;border-radius:6px;border:1px solid #ccc;">
+
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="6" placeholder="How can we help?" required style="width:100%;padding:8px;margin:6px 0;border-radius:6px;border:1px solid #ccc;"></textarea>
+
+      <button type="submit" style="background:#0073e6;color:#fff;padding:10px 14px;border:none;border-radius:8px;cursor:pointer">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Nova Stack Lab | All Rights Reserved</p>
+</footer>
+ 
+  <script src="./scripts.js"></script>
+</body>
+</html>

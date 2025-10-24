@@ -2,18 +2,100 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Nova Stack Lab: Innovative web and software solutions by a passionate team. Discover our mission, services, and expert team members.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Landing Page</title>
-  <link rel="stylesheet" href="/styles/style.css">
+  <title>Nova Stack Lab | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to the NovaStack Team Landing Page</h1>
+    <div class="nav-wrap">
+      <h1>Nova Stack Lab</h1>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+    </div>
+    <nav id="site-navigation" class="site-nav" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
-    <main>
+
+  <main>
+    <section class="hero">
+      <h1>Build. Design. Launch.</h1>
+      <p>At <strong>Nova Stack Lab</strong> we design and build beautiful, fast, and reliable digital products — from prototypes to production.</p>
+      <p><a class="btn-cta" href="services.html">See Our Services</a></p>
+    </section>
+
+    <h2>Welcome to Nova Stack Lab</h2>
+    <p>
+      At <strong>Nova Stack Lab</strong>, we are a creative tech company focused on delivering 
+      innovative web and software solutions. We combine design, technology, and strategy 
+      to help businesses thrive in the digital world.
+    </p>
+
+    <section>
+      <h3>Our Mission</h3>
+      <p>To empower startups and businesses with modern, user-friendly, and secure digital platforms 
+         that transform ideas into impactful experiences.</p>
+    </section>
+
+    <section>
+      <h3>Why Choose Us</h3>
+      <ul>
+        <li>Experienced and passionate development team</li>
+        <li>Modern UI/UX design principles</li>
+        <li>Fast, responsive, and scalable solutions</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Services at a glance</h3>
+      <div class="services-grid">
+        <article class="card">
+          <h4>Full Stack</h4>
+          <p>API design, databases, backend, and deployment — end-to-end engineering.</p>
+        </article>
+        <article class="card">
+          <h4>Frontend</h4>
+          <p>Responsive, accessible interfaces using modern JS frameworks and best practices.</p>
+        </article>
+        <article class="card">
+          <h4>Design & Cloud</h4>
+          <p>UI/UX design, prototyping, and cloud infrastructure to keep you running.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Team members from merged branches -->
     <section aria-labelledby="member-details">
       <h2 id="member-details">Team Member Details</h2>
-      <article>
+      
+      <article class="card" aria-label="Team member Leonard Nyirenda">
+        <dl>
+          <dt>Full Name</dt>
+          <dd>Leonard Nyirenda</dd>
+
+          <dt>Student ID</dt>
+          <dd>2300797</dd>
+
+          <dt>Program of Study</dt>
+          <dd>Bachelor of Software Engineering</dd>
+
+          <dt>Course</dt>
+          <dd>Software Engineering Foundations</dd>
+
+          <dt>Year & Semester</dt>
+          <dd>Year 2, Semester 1</dd>
+        </dl>
+      </article>
+      <article class="card" aria-label="Team member Emmanuel Mwamba">
         <dl>
           <dt>Full Name</dt>
           <dd>Emmanuel Mwamba</dd>
@@ -31,7 +113,49 @@
           <dd>Year 2, Semester 1</dd>
         </dl>
       </article>
+      <article class="card" aria-label="Team member Frank Mwelwa">
+        <dl>
+          <dt>Full Name</dt>
+          <dd>Frank Mwelwa</dd>
+
+          <dt>Student ID</dt>
+          <dd>2410434</dd>
+
+          <dt>Program of Study</dt>
+          <dd>Bachelor of Software Engineering</dd>
+
+          <dt>Course</dt>
+          <dd>Software Engineering Foundations</dd>
+
+          <dt>Year & Semester</dt>
+          <dd>Year 2, Semester 2</dd>
+        </dl>
+      </article>
+      <article class="card" aria-label="Team member Elijah Nonde">
+        <dl>
+          <dt>Full Name</dt>
+          <dd>Elijah Nonde</dd>
+
+          <dt>Student ID</dt>
+          <dd>2420934</dd>
+
+          <dt>Program of Study</dt>
+          <dd>Bachelor of Software Engineering</dd>
+
+          <dt>Course</dt>
+          <dd>Software Engineering Foundations</dd>
+
+          <dt>Year & Semester</dt>
+          <dd>Year 2, Semester 1</dd>
+        </dl>
+      </article>
     </section>
   </main>
+
+  <footer>
+    <p>© 2025 Nova Stack Lab | All Rights Reserved</p>
+  </footer>
+
+  <script src="./scripts.js"></script>
 </body>
 </html>
