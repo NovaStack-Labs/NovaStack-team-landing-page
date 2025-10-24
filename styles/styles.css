@@ -75,6 +75,11 @@ header .site-nav a.active {
   font-weight: 600;
 }
 
+/* Hide nav toggle button on desktop */
+.nav-toggle {
+  display: none;
+}
+
 /* Main Section */
 main {
   display: flex;
@@ -223,9 +228,9 @@ footer {
     border: 0;
   }
 
-  /* Nav toggle (hamburger) - hidden on desktop */
+  /* Show nav toggle (hamburger) on mobile */
   .nav-toggle {
-    display: none;
+    display: inline-block;
     background: transparent;
     border: none;
     color: #ffffff;
@@ -238,11 +243,6 @@ footer {
   /* Mobile layout tweaks and toggleable nav */
   header {
     position: relative; /* parent for absolute mobile nav */
-  }
-
-  /* mobile-specific rules */
-  .nav-toggle {
-    display: inline-block;
   }
 
   /* hide nav by default on small screens and show when opened */
