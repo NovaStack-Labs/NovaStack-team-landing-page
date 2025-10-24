@@ -23,12 +23,15 @@ body {
 header {
   background-color: #003366;
   color: #ffffff;
-  text-align: center;
-  padding: 30px 15px;
+  padding: 20px 30px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 header:hover {
@@ -40,17 +43,24 @@ header:hover {
 header h1 {
   font-size: 1.8rem;
   letter-spacing: 1px;
+  margin: 0;
+}
+
+/* Nav wrapper for desktop */
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 /* Navigation Link Styling */
 /* Navigation (desktop + mobile base styles) */
 header nav,
 header .site-nav {
-  display: inline-flex;
+  display: flex;
   gap: 12px;
   align-items: center;
-  justify-content: center;
-  margin-top: 12px;
+  margin: 0;
 }
 
 header nav a,
