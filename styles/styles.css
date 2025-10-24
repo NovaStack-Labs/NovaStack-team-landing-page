@@ -51,6 +51,17 @@ header h1 {
   margin: 0;
 }
 
+/* Logo link styling */
+.logo-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
 /* Nav wrapper for desktop */
 .nav-wrap {
   display: flex;
@@ -123,6 +134,11 @@ h2 {
   padding-bottom: 8px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+/* Center specific headings */
+.centered {
+  text-align: center;
 }
 
 /* Hero section */
@@ -226,9 +242,6 @@ footer {
   header h1 {
     font-size: 1.4rem;
   }
-  header h1 {
-    font-size: 1.4rem;
-  }
 
   /* Accessibility helper */
   .sr-only {
@@ -301,27 +314,26 @@ footer {
     color: #fff;
   }
 
-  /* small screens: place toggle next to title */
+  /* small screens: place toggle at far right */
   header > .nav-wrap {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* title at left */
+    justify-content: space-between;
+    width: 100%;
     gap: 12px;
     flex-wrap: nowrap;
     position: relative;
   }
 
-  /* center the toggle horizontally while keeping title at left */
+  /* position the toggle at the far right */
   header .nav-toggle {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: auto;
     transition: transform 180ms ease;
   }
 
   /* when open, give a small rotation to the icon */
   .nav-toggle.open {
-    transform: translateX(-50%) rotate(90deg);
+    transform: rotate(90deg);
   }
 
   /* make header sticky at the top on mobile */
