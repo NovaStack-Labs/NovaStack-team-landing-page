@@ -26,17 +26,16 @@ header {
   padding: 20px 30px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  margin-bottom: 30px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  max-width: 1200px;
+  gap: 500px;
+  max-width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+  margin-right: 5px;
+  margin-bottom: 20px;
 }
 
 header:hover {
@@ -49,6 +48,7 @@ header h1 {
   font-size: 1.8rem;
   letter-spacing: 1px;
   margin: 0;
+  font-weight: 700;
 }
 
 /* Logo link styling */
@@ -56,6 +56,7 @@ header h1 {
   color: #ffffff;
   text-decoration: none;
   transition: opacity 0.2s ease;
+  font-weight: 700;
 }
 
 .logo-link:hover {
@@ -83,8 +84,8 @@ header nav a,
 header .site-nav a {
   color: #ffffff;
   text-decoration: none;
-  padding: 6px 10px;
-  border-radius: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
   transition: background 0.18s ease, transform 0.12s ease;
   font-weight: 500;
 }
@@ -216,6 +217,17 @@ dd {
 .card:hover {
   transform: scale(1.02);
   box-shadow: 0 6px 18px rgba(0, 102, 204, 0.2);
+}
+
+/* Contact links styling */
+.card a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
 
 /* Footer Styling */

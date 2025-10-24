@@ -17,6 +17,7 @@ This project is a team landing page for **NovaStack Lab**, created for the Softw
 
 - **HTML5**: For structuring the web content.
 - **CSS3**: For styling, layout, and responsive design.
+- **JavaScript**: For 
 - **Git & GitHub**: For version control and collaboration.
 
 ---
